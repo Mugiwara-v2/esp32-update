@@ -1,7 +1,17 @@
 {
-  "name": "sgk-esp32-s2",
-  "version": "2.01.sgk-esp32-s2",
-  "home_assistant_domain": "esphome",
+      "chipId": ESP32S2,
+      "chipName": "ESP32-S2",
+      "magicVal": [0x000007c6],
+      "baseFuseAddr": 0x6001A000,
+      "macFuseAddr": 0x6001A000,
+      "stubFile": "esp32s2",
+      "spiRegBase": 0x3f402000,
+      "spiUsrOffs": 0x18,
+      "spiUsr1Offs": 0x1c,
+      "spiUsr2Offs": 0x20,
+      "spiMosiDlenOffs": 0x24,
+      "spiMisoDlenOffs": 0x28,
+      "spiW0Offs": 0x58,
   "builds": [
     {
       "chipFamily": "ESP32-S2",
