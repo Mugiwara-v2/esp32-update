@@ -5,6 +5,7 @@
   "builds": [
     {
       "chipFamily": "ESP32-S2",
+      "new_install_prompt_erase": true,
       "parts": [{ "path": "esp32s2.bin", "offset": 0 }]
     }
   ]
