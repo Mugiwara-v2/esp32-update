@@ -1,11 +1,10 @@
 {
-  "name": "sgk-esp32-s2",
-  "version": "2.1.sgk-esp32-s2",
+  "name": "esp32-s2-sgk",
+  "version": "2.01.esp32-s2-sgk",
   "home_assistant_domain": "esphome",
   "builds": [
     {
       "chipFamily": "ESP32-S2",
-      "new_install_prompt_erase": true,
       "parts": [{ "path": "esp32s2.bin", "offset": 0 }]
     }
   ]
